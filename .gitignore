@@ -1,0 +1,32 @@
+# filter some files
+workflow.sh
+att.png
+
+/build/
+/dist/
+fennlp.egg-info/
+
+# idea
+.idea/
+
+# subdictionary
+**/*.zip
+**/*.gz
+**/*.pk
+**/*.tfrecords
+
+#
+**/save/
+**/tensorboard/
+**/gpt_large/
+**/gpt_base/
+**/gpt_medium/
+**/chinese_L-12_H-768_A-12/
+**/cased_L-12_H-768_A-12/
+**/uncased_L-12_H-768_A-12/
+**/corpus/
+/tests/CLS/ALBERT/albert_base/
+/tests/CLS/ALBERT/albert_large/
+/tests/CLS/BERT/chinese_L-12_H-768_A-12/
+/tests/CLS/TextCNN/corpus/
+/tests/NER/NER_EN/albert_base/
