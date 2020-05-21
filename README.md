@@ -1,4 +1,4 @@
-# fennlp
+# nlpgnn
 
 [![Build Status](https://travis-ci.org/kyzhouhzau/fennlp.svg?branch=master)](https://travis-ci.org/kyzhouhzau/fennlp/branches)
 [![PyPI version](https://badge.fury.io/py/fennlp.svg)](https://badge.fury.io/py/fenlp)
@@ -84,15 +84,11 @@ See "tran_bpe_embeding.py" for more details.
 
 1. clone source
 ```
-git clone https://github.com/kyzhouhzau/fennlp.git
+git clone https://github.com/kyzhouhzau/NLPGNN.git
 ```
 2. install package
 ```
 python setup.py install 
-```
-or 
-```
-pip install fennlp
 ```
 
 3. run model
