@@ -11,7 +11,7 @@ URL = 'https://github.com/kyzhouhzau/nlpgnn'
 EMAIL = 'zhoukaiyinhzau@gmail.com'
 AUTHOR = 'Kaiyin Zhou'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.0.7'
+VERSION = '0.0.0'
 
 REQUIRED = [
     'typeguard',

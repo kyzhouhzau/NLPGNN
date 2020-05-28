@@ -1,5 +1,6 @@
 #! encoding:utf-8
 import time
+import numpy as np
 import tensorflow as tf
 from nlpgnn.datas import Planetoid
 from nlpgnn.metrics import Losess, Metric
@@ -19,6 +20,8 @@ penalty = 5e-4
 data = Planetoid(name="citeseer", loop=True, norm=True)
 
 features, adj, y_train, y_val, y_test, train_mask, val_mask, test_mask = data.load()
+
+
 
 model = GCNLayer(hidden_dim, num_class, drop_rate)
 
