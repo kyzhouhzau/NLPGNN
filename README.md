@@ -40,9 +40,40 @@ Examples (See tests for more details):
 All the above experiments were tested on GTX 1080 GPU with memory 8000MiB.
 
 # Status
+2020/5/--: convert the project name to NLPGNN from fennlp.
+
 2020/5/17: try to convert sentence to graph based on bert attention matrix, but failed.
 This section provides a solution to visualize the BERT attention matrix.
 For more detail, you can check dictionary "BERT-GCN". 
+
+2020/5/11: add TextGCN and TextSAGE for text classification.
+
+2020/5/5: add GIN, GraphSAGE for graph classfication.
+
+2020/4/25: add GAN, GIN model, based on message passing methods.
+
+2020/4/23: add GCN model, based on message passing methods.
+
+2020/4/16：currently focusing on models of GNN in nlp, and trying to integrate some GNN models into fennlp.
+
+2020/4/2: add GPT2 model, could used parameters released by OpenAI (base,medium,large). 
+More detail reference dictionary "TG/EN/interactive.py"
+
+2020/3/26: add Bilstm+Attention example for classification
+
+2020/3/23: add RAdam optimizer.
+
+2020/3/19: add test example "albert_ner_train.py" "albert_ner_test.py"
+
+2020/3/16: add model for training sub word embedding based on bpe methods.
+The trained embedding is used in TextCNN model for improve it's improvement.
+See "tran_bpe_embeding.py" for more details.
+
+2020/3/8: add test example "run_tucker.py" for train TuckER on WN18.
+
+2020/3/3: add test example "tran_text_cnn.py" for train TextCNN model. 
+
+2020/3/2: add test example "train_bert_classification.py" for text classification based on bert.
 
 # Requirement
 * tensorflow-gpu>=2.0
@@ -292,7 +323,7 @@ Same data split and parameters setting as proposed in this [paper](https://arxiv
 | ------- | -------  |-------     |-------   |
 |GCN      |81.80   |79.50    |  71.20    |  
 |GAN      |83.00   | 79.00   |  72.30    |
-|GAAE     |82.4   |79.60    |  71.7    |  
+|GAAE     |82.40   |79.60    |  71.70   |  
 
 * Graph Classfication
 

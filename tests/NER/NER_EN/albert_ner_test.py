@@ -7,7 +7,7 @@ from nlpgnn.metrics import Metric
 from nlpgnn.models import albert
 
 # 载入参数
-load_check = LoadCheckpoint(language='en', model="albert", paramaters="base")
+load_check = LoadCheckpoint(language='en', model="albert", parameters="base")
 param, vocab_file, model_path, spm_model_file = load_check.load_albert_param()
 # 定制参数
 param.batch_size = 8
